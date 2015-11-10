@@ -1,0 +1,53 @@
+
+
+
+Progress so far....
+
+
+*** To run: python driver.py *** 
+*** additional functionality within driver which can be uncommented ***
+
+
+Functions run live
+
+1. Able to take a screenshot of variable start location and size
+2. Able to convert this into a viewable, processable image
+	-able to turn to grayscale
+	-able to slice into arbitrarily large chunks
+3. Able to split image into slices of any arbitrary size
+4. Able to move and click mouse
+
+TODO parallelize taking/processing screenshots
+TODO run timers to profile functions
+TODO make mouse movement more humanlike (bezier & randomness)
+
+#######################################
+##### TODO: CV / Machine Learning #####
+#######################################
+
+TODO crop all images to be 50x50
+
+TODO load all images into resources folder
+
+TODO image -> grayscale -> apply_gabors -> histogram -> svm
+
+TODO more strategies? include green vs not green?
+
+TODO find out how to persist model and use it live
+
+
+
+#######################################
+##### EXTRA: Productionizing      #####
+#######################################
+
+TODO: get user to click on the corners of their runescape window,
+	  record this locations for box
+
+TODO: figure out how to click on bank and click on area with trees,
+	  processing on minimap
+
+TODO: cv on bankers
+
+TODO: dismissing random events
+
